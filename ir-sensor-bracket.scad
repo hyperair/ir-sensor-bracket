@@ -4,10 +4,10 @@ function centering_offset (outer_dimension, inner_dimension) =
 module irsensor_bracket (
     screw_bracket_width = 8.65,
     plug_width = 10.4,
-    inner_breadth = 13.45,
-    inner_length = 29.85,
+    inner_breadth = 13.6,
+    inner_length = 30,
     depth = 10,
-    wall_thickness = 1,
+    wall_thickness = 2,
 )
 {
     outer_length = inner_length + wall_thickness * 2;
